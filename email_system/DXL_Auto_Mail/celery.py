@@ -28,7 +28,8 @@ app.autodiscover_tasks()
 def debug_task(self):
     print('Request: ')
 
-
+ 
 
 # celery -A DXL_Auto_Mail.celery worker --pool=solo -l INFO
+#celery -A DXL_Auto_Mail.celery worker --pool=solo -l INFO
 # celery -A DXL_Auto_Mail.celery beat --pool=solo -l INFO
